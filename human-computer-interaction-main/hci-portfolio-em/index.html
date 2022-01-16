@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Human Computer Interaction: Yoga App</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!--==================== UNICONS ====================-->
+
+
+    <!--==================== SWIPER CSS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+      <!--==================== CSS ====================-->
+      <link rel="stylesheet" href="style.css">
+      <!--==================== Fonts ====================-->
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  
+  </head>
+
+  <body>
+    <!--============================================ HEADER ============================================-->
+    <header class="header" id="header">
+       <!--==================== Process Bar ====================-->
+      <nav class='process bar'>   
+          <div id="progress-bar-container">
+              <ul>
+                <a href="#intro_space"><li class="step step01 active"><div class="step-inner">Introduction</div></li></a>
+                <a href="#data_space"><li class="step step02"><div class="step-inner">Research</div></li></a>
+                <a href="#develop_space"><li class="step step03"><div class="step-inner">Develop & Design</div></li></a>
+                <a href="#conclusion_space"><li class="step step04"><div class="step-inner">Conclusion</div></li></a>
+                  
+              </ul>
+              
+              <div id="line">
+                  <div id="line-progress"></div>
+              </div>
+          </div>
+          </nav>
+      
+    </header>
+
+     <!--============================================ MAIN ============================================-->
+     <main class="main">
+      <div id="logo">
+        <img src="images/markup-13.png" id="front-logo">
+      </div>
+       <div id="content-section">
+
+      <div class="space" id="intro_space"></div>   
+      <!--==================== Introduction ====================-->
+      <section class="section active" id="intro">
+      <div class='text_container'>
+        
+          <!--==================== Project Overivew ====================-->
+      <div id="overview">
+        <div class="overview_item_1">
+          
+        <div class="duration">
+        <p>
+          <b>Duration: </b>7 weeks
+          <br>
+          <b>My Role: </b>research design • data analysis • user flow design • prototyping
+        </p>
+        </div>
+      
+        
+        </div>
+        
+        <div class="overview_item_2">
+          <h1 id='intro_title'>Project Overview</h1>
+          <p id='intro_txt'>
+            Y360 is an augmented reality (AR) yoga app that provides 360° video courses, enabling new immersive experiences for yoga practitioners.
+            The recent pandemic has changed the way people learn yoga: more and more people choose to practice yoga at home rather than attending classes physically. The primary app idea is to address the challenges of learning yoga remotely arises with this transition by introducing an interactive learning environment and personalized training courses through employing action-recognition systems.
+          </p>
+        </div>    
+      </div>
+          
+      </div>
+          
+    </section>
+<div class="space" id="data_space"></div>
+      <!--==================== Data Collection & Analysis ====================-->
+      <section class="section" id="data">
+      <div class='text_container'>
+        <!--title-->
+ 
+              <h1 id='data_title'>Research</h1>
+
+          <!--1-->
+          <div id='User Interview'>
+              <h2>User Interview</h2>
+              <p>
+                  In order to better understand our target users and address their pain points, we conducted semi-interviews with five students 
+                  from National Taiwan University who have been practicing yoga consistently for more than a year. 
+                  We focused on questions about their experiences, needs and expectations of yoga practices.
+              <h3>We found out that......</h3>
+                  <ul>
+                    <li>participants consider verbal guidance is as effective as hands-on guidance for learning yoga</li>
+                    <li>participants require real-time feedback to bring attention to their own body mechanics</li>
+                    <li>participants expect customized learning experience and personal spaces</li>
+                    <li>participants consider the yoga studio as a place where students can learn and support each other</li>
+                  </ul>
+                  
+              </p>
+             
+              <div id='product positioning'>
+                <h2>Competitive Analysis</h2>
+                <p>
+                     We looked into two types of competitive forces, including yoga apps and a virtual reality yoga game and identified two main areas that have the potential for improvements: personalized courses and a holistic view of yoga positions. 
+                     First, some products only provide limited courses that restrict user choices.
+                     Second, most videos in yoga applications only offer side and front views of instructors demonstrating poses. 
+                </p>
+                <h3>To stand out, we aim to......</h3>
+                <ul>
+                  <li>provide both pre-designed courses and customized courses for users to plan their workout</li>
+                  <li>integrate AR technology to create an immersive experience where users can explore yoga poses further through rotating and zooming 360° interactive videos</li>
+                  <li>improve the real-time feedback system so that users can reflect on their performance and improve in the next classroom</li>
+                </ul>
+  
+            </div>
+              
+          </div>
+          <!--2-->
+          <div id='user persona'>
+              <!--2-1-->
+              <h2>User Persona</h2>
+              <p>
+                  Based on our understanding of our target users, we created a persona that guides our ideation process.
+              </p>
+              <!--2-2 emily persona-->
+              <div id="emily-persona">
+                 <!--start of flex container-->
+                <div id="flex-container">
+                <div id='persona picture'>
+                  <img src="images/emily.png" alt="persona picture" id="emily">
+                </div>
+                <div>
+                  <p id="emily-info">
+                    Female
+                    <br>21 years old
+                    <br>Student
+                    <br>introverted <span>&#183</span> passionate <span>&#183</span> detail-oriented
+                  </p>
+                </div>
+                </div>
+                <!--end of flex container-->
+              
+                
+  
+
+                <div id="motivation">
+                  <h3>Goals</h3>
+                  <p>
+                    <ul>
+                      <li>create a strong foundation through focusing on basic poses</li>
+                      <li>practice yoga at home and at her own pace</li>
+                      <li>manage time and money more effectively</li>
+                      <li>keep a consistent workout schedule</li>
+                    </ul>
+                  </p>
+                  <h3>Pain Points</h3>
+                  <p>
+                    <ul>
+                      <li>time and money constraints</li>
+                      <li>commuting problems</li>
+                      <li>feelings of anxiety in crowded places</li>
+                      <li>difficulties keeping up with the class</li>
+                    </ul>
+                  </p>
+    
+                </div>
+
+              </div>
+              <!--end of emily persona-->
+              
+          </div> <!--end of 2-->
+      </div> <!--end of text container-->
+  
+    </section>
+    <div class="space" id="develop_space"></div>
+      <!--==================== Develop & Design ====================-->
+      <section class="section" id="develop">
+      <div class='text_container'>    
+          <div >
+              <h1 id='develop_title'>Develop and Design</h1>
+          </div>
+          <p>
+            To address these user needs, we proposed 4 guidelines for our product design to create and enhance a learning environment for yoga practitioners by: 
+            <ul>
+                <li>providing sufficient and clear demonstrations and verbal instructions</li>
+                <li>giving real-time feedback and correcting errors</li>
+                <li>allowing users to create yoga sequences based on learners’ own preferences</li>
+                <li>creating a platform where learners are able to share their learning experiences</li>
+         </ul>
+          </p>
+          
+          <div id='prototyping'>
+              
+              <h2>Low-Fidelity Prototype Design</h2>
+              <p>Based on user research and competitive analysis, we prioritize our feature set to include Explore, My Courses, My Profile, and Community sections. With these features, we used sketching techniques to design a better user experience (UX).  </p>
+              <h3>Interaction Map</h3>
+                <div id="img-container-1">
+                  <img src="images/20-3.png" class="flow">
+                </div>
+              <h3>Perliminary User Flow</h3>
+                <div id="img-container">
+                  <img src="images/20-2.png" class="flow">
+                </div>
+
+              <h2>High-Fidelity Prototype Design</h2>
+              <p>To add personality to our product and connect with users, we used UX writing to craft the text copies that appear throughout the interface of our prototype. </p>
+              <h3>On-boarding</h3>
+              <p>We give users the options to set preferences for content and training levels, and also allow users to set daily reminders. This on-boarding process sets the tone for a flexible and customizable yoga journey.</p>
+
+               <!-- Swiper -->
+               <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="images/3-1.png">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/3-13.png">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/3-2.png">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/3-3.png">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/3-4.png">
+                  </div>
+                  
+                 
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <!-- Swiper ending -->
+              <h3>Explore</h3>
+              <p>In addition to recommended courses, users are encouraged to discover the latest yoga trends. Users can also browse additional courses using search and advanced filtering features which allows them to find suitable courses based on their choices of level, focus, space, and positions. </p>
+            
+                <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/3-5.png">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/3-6.png">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/3-7.png">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/3-8.png">
+                      </div>
+                     
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <!-- Swiper ending -->
+
+                <h3>Course Videos</h3>
+                <p>Boasts audio and visual instructions would guide users through poses step by step. Users can turn on their camera, using real-time visual feedback to learn and optimize poses by comparing their postures with the optimal position. We also provide audio feedback that corrects users movements. Instant feedback allows users to have interactive experiences like they do at a real-life studio and reduces the risk of injury caused by incorrect postures. By rotating the view of the instructor in the 360° videos, users are able to master their skills by studying our instructional library of poses and have a comprehensive view from multiple perspectives. </p>
+                <!-- Swiper -->
+                <div class="swiper mySwiper swiper-video">
+                  <div class="swiper-wrapper video-wrapper">
+                    <div class="swiper-slide video">
+                      <img src="images/25.png">
+                    </div>
+                    <div class="swiper-slide video">
+                      <img src="images/26.png">
+                    </div>
+                    <div class="swiper-slide video">
+                      <img src="images/27.png">
+                    </div>
+                    <div class="swiper-slide video">
+                      <img src="images/28.png">
+                    </div>
+                   
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <!-- Swiper ending -->
+
+                <h3>My Courses and My Profile</h3>
+                <p>Users are able to build a library of yoga videos that they like to create personalized training experiences. We encourage users to set reminders and alerts for upcoming schedules and we also help users keep records of their practices. We designed a platform where users are able to stay connected with other learners. This direct connection enables users to share their experiences with other learners and exchange peer feedback. </p>
+                            
+
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/3-9.png">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/3-10.png">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/3-11.png">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/3-12.png">
+                      </div>
+                     
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <!-- Swiper ending -->
+
+
+          </div>
+    
+      </div>
+    </section>
+<div class="space" id="conclusion_space"></div>
+      <!--==================== Conclusion & Future Work ====================-->
+      <section class="section" id='conclusion'>
+      <div class='text_container'>
+          <div >
+              <h1 id='conclusion_title'>What I learned from this project......</h1>
+              <p id='conlusion_txt'>
+                I worked on this human-computer interaction project with a multidisciplinary team of five. Our team was incredibaly diverse-- it consisted of people from different disciplines, including business, computer science,  psychology and humanities. The design-thinking process was challenging at first, but it was exciting as it impelled me to approach the  design of technology in a human-centric manner that put user needs at the forefront. It was  also a highly collaborative process where I enjoyed collaborating with people with  multidisciplinary backgrounds. I was intrigued to see how interdisciplinary efforts could  lead us beyond our own points of view and result in innovative outcomes. This gave me a  sound understanding of the roles and opportunities for technology to help people and  reinforced my communication skills as it trained me to think more critically and deliberately  about my own assumptions. 
+
+              </p>
+          </div>
+   
+      </div> 
+    </section>
+          
+  </div>
+
+    <!--end of "content-section"-->
+
+   
+  </main>
+
+    <!--=================================================  FOOTER ============================================-->
+    <footer class="footer">
+        
+    </footer>
+
+
+    <!--================================================  JS ================================================-->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+ <script>
+
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    centeredSlides: true,
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // Responsive breakpoints
+     breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+  }
+  });
+      
+    </script>
+
+
+        <!-- Main JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="JS/script.js"></script>
+
+  </body>
+</html>
