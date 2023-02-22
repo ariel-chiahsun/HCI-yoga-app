@@ -45,6 +45,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+ul{
+    font-size: 18px;
+}
 
 footer p {
     font-size: small;
